@@ -1,0 +1,101 @@
+.cases_logo{
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width:100px;
+    height:100px;
+}
+
+.card-title{
+    color: black;
+}
+
+.intro-one{
+    background-color: floralwhite;
+    color: cornflowerblue;
+    width:100%;
+    padding:100px;
+    height: 350px;
+}
+
+.intro-one h3{
+    color: #ffc728;
+}
+
+.intro-one p{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.intro-one .hr-one{
+    width: 35%;
+    margin-top:1px;
+    margin-bottom:1px;
+    border-bottom: 1px solid #ffc728;
+}
+
+.intro-one .hr-two{
+    width: 40%;
+    margin-bottom:1px;
+    margin-top:1px;
+    border-bottom: 1px solid #ffc728;
+}
+
+.hr-h3{
+    width: 30%;
+    margin-top:0;
+    margin-bottom:0;
+    border-bottom: 1px solid orangered;
+}
+
+#e11{
+    background-color: #ffc728;
+    padding:50px;
+}
+
+#e12{
+    background-color: #ffc728;
+}
+
+#cases-container-2{
+    margin-top: 50px;
+}
+
+.div-conteudo{
+    margin-top: 80px;
+    margin-bottom:80px;
+}
+
+.div-conteudo h1{
+    margin-bottom:30px;
+}
+
+#main{
+    margin-bottom: 90px;
+}
+
+.card{
+    width: 18rem;
+}
+
+.panel-text{
+    margin: auto;
+    text-align: left;
+    width: 40%;
+}
+
+.panel-text p {
+    margin: auto;
+    text-align: left;
+    width: 40%;
+}
+
+.intro-one h3{
+    font-weight: bold;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #fd7e14;
+}

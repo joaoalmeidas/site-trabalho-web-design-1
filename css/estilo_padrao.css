@@ -1,0 +1,19 @@
+
+@font-face {
+    font-family: Montserrat;
+    src: url(fontes/montserrat/Montserrat-Light.otf);
+}
+
+html, body, main{
+    height: 100%;
+    width: 100%;
+}
+
+
+body{
+    color: white;
+    font-family: Montserrat;
+    background-color: black;
+    background-image: url("../imagens/black-linen.png");
+}
+

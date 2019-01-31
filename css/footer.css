@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(fontes/montserrat/Montserrat-Light.otf);
+}
+
+footer{
+
+    position: absolute;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    background-image: linear-gradient(#333, #000);
+    color: white;
+}
+
+footer hr{
+    background-color: grey;
+}
+
+#img-rodape{
+    height:40px;
+    margin-top: -20px;
+}
+
+.logos-rodape{
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.fonte-rodape{
+    background-color: aliceblue;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+}

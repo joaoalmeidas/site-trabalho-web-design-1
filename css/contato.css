@@ -1,0 +1,34 @@
+body{
+    width:100%;
+    height:100%;
+    background-color: black;
+}
+
+h1,h2,h3 {
+    margin:0 0 35px 0;
+    text-transform: uppercase;
+    letter-spacing:1px;
+}
+
+p{
+    margin:0 0 25px;
+    font-size:18px;
+    line-height:1.6em;
+}
+
+#contact{
+    color:#f4f4f4;
+    padding-bottom:80px;
+}
+
+textarea.form-control{
+    height:100px;
+}
+
+.team{
+    padding:75px 0;
+}
+
+.img-responsive{
+    width:100%;
+}

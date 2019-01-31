@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    font-weight: bold;
+}
+
+.jumbotron{
+    background-color: black;
+}
+
+.first{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagens/ambientes/ambientes.jpg");
+    height: 400px;
+}
+
+.jumbotron p{
+    width:70%;
+    text-align: left;
+    margin: auto;
+}
+
+#carousel1, #carousel2, #carousel3, #carousel4{
+    width:70%;
+    margin:auto;
+}
+
+#carousel1 img, #carousel2 img, #carousel3 img, #carousel4 img{
+    width:600px;
+    height:550px;
+}
+
+#h5-title{
+    font-size: 30px;
+}
+
+.p-title{
+    font-size: 20px;
+}

@@ -1,0 +1,73 @@
+
+/*Navbar*/
+
+.estiloNavbar{
+    background-image: linear-gradient(#333, #000);
+}
+
+.estiloNavbar a {
+    margin-right: 25px;
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.estiloNavbar li a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar-toggler-icon{
+    color: white;
+}
+
+div.container22
+{
+    margin: 0 auto;
+    padding: 20px 3em;
+    text-align: right;
+}
+
+/*
+Menu
+*/
+div.container22 a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+
+/* Menu - Efeito da borda animada   */
+div.borderXwidth a:before, div.borderXwidth a:after
+{
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: #FFF;
+    transition: all 0.3s;
+}
+
+div.borderXwidth a:before {
+    left: 0px;
+    top: 0px;
+}
+
+div.borderXwidth a:after{
+    right: 0px;
+    bottom: 0px;
+}
+
+div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
+    opacity: 1;
+    width: 100%;
+}
+
